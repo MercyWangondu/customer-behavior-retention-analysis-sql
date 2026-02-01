@@ -13,10 +13,12 @@ CREATE TABLE orders (
     customer_id VARCHAR,
     order_status VARCHAR,
     order_purchase_timestamp TIMESTAMP,
+    order_approved_at TIMESTAMP,
+    order_delivered_carrier_date TIMESTAMP,
     order_delivered_customer_date TIMESTAMP,
-    order_estimated_delivery_date TIMESTAMP,
-    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+    order_estimated_delivery_date TIMESTAMP
 );
+
 
 -- Create order_items table
 CREATE TABLE order_items (
