@@ -1,3 +1,4 @@
+--Done through the import option 
 -- Load customers data
 COPY customers
 FROM 'PATH_TO_olist_customers_dataset.csv'
