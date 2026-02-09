@@ -2,7 +2,7 @@
 
 ## Dashboard Overview
 
-![Power BI Dashboard](dashboard_screenshot.png)
+![Power BI Dashboard](images/dashboard_screenshot.png)
 
 *Interactive dashboard showing customer behavior metrics, order trends, and retention analysis*
 
@@ -153,5 +153,3 @@ This project follows Power BI best practices:
 
 ---
 
-**Last Updated:** February 2026  
-**Created For:** Customer Behavior & Retention Analysis Project
