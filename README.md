@@ -162,11 +162,15 @@ customer-behavior-retention-analysis-sql/
 │   ├── 02_load_data.sql
 │   ├── 03_foreign_keys_and_relationships.sql
 │   ├── 04_exploratory_queries.sql
-│   └── 05_retention_analysis.sql
+│   └── README.md
 │
 ├── insights/
-│   ├── customer_behavior_insights.md
-│   └── power_bi_measures_and_columns.md
+│   └── query_results_summary.md
+│
+├── power_bi/
+│   ├── images/
+│   ├── dashboard_screenshot.png
+│   └── README.md
 │
 └── README.md
 ```
@@ -196,11 +200,5 @@ customer-behavior-retention-analysis-sql/
 - Python-based analysis layer
 - Customer segmentation models
 - Automated reporting pipelines
-
-## Contact
-
-Feel free to reach out with questions or feedback about this project.
-
+  
 ---
-
-**Note:** This project was created for portfolio purposes to demonstrate analytical and technical skills in SQL, database design, and business intelligence.
